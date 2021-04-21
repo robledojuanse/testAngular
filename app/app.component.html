@@ -1,0 +1,21 @@
+<!-- <app-employee-list
+  [data]="salesList"
+  department="Sales"
+></app-employee-list>
+
+<app-employee-list
+  [data]="rndList"
+  department="R&D"
+></app-employee-list> -->
+
+<div>
+
+  <input type="submit" (click)="callalldata()">
+
+</div>
+
+
+<div>  
+    <li *ngFor="let row of dataAsync">{{row.title}}</li>
+</div>
+
